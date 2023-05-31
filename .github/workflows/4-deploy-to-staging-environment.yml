@@ -60,10 +60,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Pull main.
-      - name: Pull main
-        run: ./.github/script/pull-main.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Pull main
+       # run: ./.github/script/pull-main.sh
+       # env:
+        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # In README.md, switch step 4 for step 5.
       - name: Update to step 5
