@@ -1,4 +1,4 @@
-name: Stage the app
+name: Staging
 
 on:
   pull_request:
